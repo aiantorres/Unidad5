@@ -1,0 +1,27 @@
+body{
+ 
+    font-family: 'Krub', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+ul{
+       
+    
+    color: white;
+    
+    background-color: green;
+    font-weight: bold;
+    margin: 5%;
+    height: 87%;
+    position: fixed;
+}
+
+ul :hover{
+    color: blue;
+    cursor: pointer;
+}
+li{
+    margin: 30px;
+    list-style: none; 
+    text-decoration: none;
+}
