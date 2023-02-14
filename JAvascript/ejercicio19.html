@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula Números</title>
+    <link rel="icon" type="image/x-icon" href="calculator.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2>Introduce números enteros separados por comas</h2>
+    <div>
+        <input type="text" id="num" value="30,38,2">
+        <button id="cargar" onclick="cargarEjemplo()">Cargar Ejemplo</button>
+    </div>
+    
+    <div>
+        <button id="num" onclick="calcular()">Calcular</button>
+        
+        <button onclick="reiniciar()">Reiniciar</button>
+
+    </div>
+    <p id="idSuma"></p>
+    
+    
+
+    
+    <script src="ejercicio19.js"></script>
+</body>
+</html>
